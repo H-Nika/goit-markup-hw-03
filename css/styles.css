@@ -36,10 +36,8 @@ img {
 }
 .container {
   width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin: 0 auto;
-  padding: 24px 0;
+  padding: 0 15px;
 }
 
 .visually-hidden {
@@ -113,7 +111,6 @@ img {
 }
 
 .foreword-menu-item {
-  padding: 24px 0;
   display: block;
 }
 .foreword-menu-link {
@@ -121,6 +118,7 @@ img {
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 .foreword-menu-link:hover,
 .foreword-menu-link:focus {
@@ -298,11 +296,11 @@ img {
 }
 .portfilio-item {
   width: calc((100% - 48px) / 3);
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 portfolio-item-caption {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
   border-top: none;
 }
 
